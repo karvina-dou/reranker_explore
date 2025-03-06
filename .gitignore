@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+vllm/*
+docker_try/*
+reranker_doc/*
+
+data/*
+!*data/README.md
+
+finetunes/*
+!*finetunes/1_finetune-openretrievals/openretrievals_train.py
+!*finetunes/2_finetune-sentencetransformer/st_ft.py
+!*finetunes/3_finetune-gte.py
+!*finetunes/4_finetune-peft_IMDB/peft_train.py
+!*finetunes/4_finetune-peft_IMDB/peft_inference.py
+
+*.ipynb
